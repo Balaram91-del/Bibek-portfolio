@@ -150,7 +150,7 @@ body{
 .hero-content h2{
     font-family: "Montserrat", sans-serif;
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 35px;
     font-style: italic;
 }
 
@@ -158,18 +158,18 @@ body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight:bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .contact-btn{
-    width: 15%;
-    height: 5vh;
+    width: 20%;
+    height: 6vh;
     border-radius: 50px;
     background-color: rgba(0, 0, 69, 0.326);
     color: wheat;
     border-style: none;
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 90%;
 }
 
 .contact-btn:hover{
@@ -241,7 +241,7 @@ body{
     width: 100%;
     height: auto;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 30vh;
 }
 
 .projects h2{
@@ -287,10 +287,10 @@ body{
 .skills-section{
     display: flex;
     flex-direction: column;
-    height: 50vh; /* Corrected from hv to vh */
+    height: auto; /* Corrected from hv to vh */
     width: 100%;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 25vh;
 }
 
 .skills-section h2{
@@ -338,8 +338,12 @@ body{
 }
 
 .card1{
+    
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 4%;
 }
 
 .card1 video{
@@ -348,6 +352,9 @@ body{
     mix-blend-mode:difference;
 }
 
+.card1 h3{
+    text-align: center;
+}
 .card1 h3, .card4 h3, .card3 h3, .card2 h3{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -404,7 +411,7 @@ body{
     font-size: 20px;
 }
 
-.skill-container div ul:hover{
+.skill-container div ul li:hover{
     color: wheat;
 }
 
@@ -415,7 +422,7 @@ body{
     margin-inline: auto;
     position: relative;
     height: 200px;
-    margin-top: 5rem;
+    margin-top: 7rem;
     overflow: hidden;
 }
 
